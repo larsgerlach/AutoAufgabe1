@@ -1,0 +1,26 @@
+Klassen:
+
+Auto
+Motor
+Fahrer - hier soll die main-Methode rein. Noch nichts damit machen.
+
+Felder:
+
+	Auto:
+		private int anzahlRaeder - selbsterklärend
+		private Motor motor - der Motor des Autos
+
+	Motor:
+		private boolean istAn - entweder true oder false. Wenn true, läujft der Motor, wenn false, ist er aus.
+
+
+Methoden:
+	Im Auto:
+		- zusammenbauen(int raeder) - soll vorläufig der Setter für die Räder werden
+		- starten() - soll den Motor starten, also die Boolean istAn auf true setzen
+		- ausschalten() - soll den Motor stoppen, also die Boolean istAn auf false setzen
+		- getter für anzahlRaeder
+
+
+	Im Motor:
+		- getter und setter für istAn.
